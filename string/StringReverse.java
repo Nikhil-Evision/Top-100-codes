@@ -3,9 +3,9 @@ package string;
 public class StringReverse {
     public static void main(String[] args) {
         String word = "Nikhil";
-        String reverse="";
+        StringBuilder reverse= new StringBuilder();
         for(int i =0;i<word.length();i++){
-            reverse= word.charAt(i)+reverse;
+            reverse.insert(0, word.charAt(i));
         }
         System.out.println(reverse);
     }
