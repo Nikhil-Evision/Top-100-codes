@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class StringAnagram {
     public static void main(String[] args) {
-        String word1 = "nikhil";
-        String word2 = "hilnik";
+        String word1 = "Nikhil is my name";
+        String word2 = "my name is Nikhil";
         System.out.println("Anagram : "+ isAnagram(word1,word2));
         System.out.println();
 
