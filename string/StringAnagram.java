@@ -7,8 +7,6 @@ public class StringAnagram {
         String word1 = "Nikhil is my name";
         String word2 = "my name is Nikhil";
         System.out.println("Anagram : "+ isAnagram(word1,word2));
-        System.out.println();
-
     }
     public static boolean isAnagram(String str1, String str2){
         if(str1.length() != str2.length()){
